@@ -1,0 +1,25 @@
+{
+    "name":"Youtube Summarizer",
+    "version":"1.0.0",
+    "description":"An extension to summarize video using the transcript",
+    "manifest_version":3,
+    "author":"Sourabh Kumar Gupta",
+    "permissions":["activeTab","declarativeContent"],
+    "host_permissions":["https://127.0.0.1.:5000/*"],
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Summarize this video",
+        "defaul_icon":{
+            "16":"images/logo.png",
+            "32":"images/logo.png",
+            "48":"images/logo.png",
+            "128":"images/logo.png"
+        }
+    },
+    "icons":{
+            "16":"images/logo.png",
+            "32":"images/logo.png",
+            "48":"images/logo.png",
+            "128":"images/logo.png"
+    }
+}
